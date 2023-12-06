@@ -13,7 +13,6 @@
 <section class="main-body">
     <h2>Typing Speed Test Game</h2>
     <p id="showSentence"></p>
-
     <div class="typing_section">
         <label for="textarea"></label>
         <textarea name="textarea" id="textarea" cols="30" rows="10" disabled></textarea>
