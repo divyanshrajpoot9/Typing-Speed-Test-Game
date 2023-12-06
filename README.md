@@ -2,11 +2,29 @@
 ### Hosted Link: https://divyanshrajpoot9.github.io/Typing-Speed-Test-Game/
 
 ### HTML Structure:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>typing test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="main-body">
+    <h2>Typing Speed Test Game</h2>
+    <p id="showSentence"></p>
 
-<textarea id="textarea" disabled></textarea>
-<button id="btn">Start</button>
-<p id="score"></p>
-<p id="showSentence"></p>
+    <div class="typing_section">
+        <label for="textarea"></label>
+        <textarea name="textarea" id="textarea" cols="30" rows="10" disabled></textarea>
+        <br>
+        <button id="btn">Start</button>
+    </div>
+    <p id="score"></p>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
 
 ### JavaScript:
 #### Step 1: Variable Declarations
