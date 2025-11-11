@@ -1,6 +1,5 @@
 # Typing-Speed-Test-Game
 ### Hosted Link: https://divyanshrajpoot9.github.io/Typing-Speed-Test-Game/
-## Yup
 
 ### HTML Structure:
 <!DOCTYPE html>
